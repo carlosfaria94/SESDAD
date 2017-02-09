@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppetMaster", "Projeto\PuppetMaster.csproj", "{92469810-7D59-442C-8F34-40FAC20237D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{4388988E-2418-4B82-B389-358B063E6754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broker", "Broker\Broker.csproj", "{17E23134-7B27-4C30-8E65-C9583E2AE907}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1} = {80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{63B99970-C436-4444-B149-C15F7A6ADE10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1} = {80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteObjects", "RemoteObjects\RemoteObjects.csproj", "{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56ADF22D-F2F8-4D70-83B7-0D0A302D9FFC}"
+	ProjectSection(SolutionItems) = preProject
+		ficheiroConfiguracao.txt = ficheiroConfiguracao.txt
+		scriptComandos.txt = scriptComandos.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppetMasterURL", "PuppetMasterURL\PuppetMasterURL.csproj", "{1A69200D-26A1-432E-8924-94DC6F39E495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92469810-7D59-442C-8F34-40FAC20237D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92469810-7D59-442C-8F34-40FAC20237D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92469810-7D59-442C-8F34-40FAC20237D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92469810-7D59-442C-8F34-40FAC20237D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4388988E-2418-4B82-B389-358B063E6754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4388988E-2418-4B82-B389-358B063E6754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4388988E-2418-4B82-B389-358B063E6754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4388988E-2418-4B82-B389-358B063E6754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E23134-7B27-4C30-8E65-C9583E2AE907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E23134-7B27-4C30-8E65-C9583E2AE907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E23134-7B27-4C30-8E65-C9583E2AE907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E23134-7B27-4C30-8E65-C9583E2AE907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B99970-C436-4444-B149-C15F7A6ADE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B99970-C436-4444-B149-C15F7A6ADE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B99970-C436-4444-B149-C15F7A6ADE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B99970-C436-4444-B149-C15F7A6ADE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A1789E-9DC0-4A92-9DBE-C778DC2EAFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A69200D-26A1-432E-8924-94DC6F39E495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A69200D-26A1-432E-8924-94DC6F39E495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A69200D-26A1-432E-8924-94DC6F39E495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A69200D-26A1-432E-8924-94DC6F39E495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+RoutingPolicy flooding
+OrderingPolicy FIFO
+LoggingLevel full
+Site site0 Parent none
+Site site1 Parent site0
+Site site2 Parent site0
+Site site3 Parent site1
+Process broker0 Is broker On site0 URL tcp://localhost:9003/broker
+Process broker00 Is broker On site0 URL tcp://localhost:9004/broker
+Process broker000 Is broker On site0 URL tcp://localhost:9005/broker
+Process broker1 Is broker On site1 URL tcp://localhost:9006/broker
+Process broker11 Is broker On site1 URL tcp://localhost:9007/broker
+Process broker111 Is broker On site1 URL tcp://localhost:9008/broker
+Process broker2 Is broker On site2 URL tcp://localhost:9009/broker
+Process broker22 Is broker On site2 URL tcp://localhost:9010/broker
+Process broker222 Is broker On site2 URL tcp://localhost:9011/broker
+Process broker3 Is broker On site3 URL tcp://localhost:9012/broker
+Process broker33 Is broker On site3 URL tcp://localhost:9013/broker
+Process broker333 Is broker On site3 URL tcp://localhost:9014/broker
+Process publisher0 Is publisher On site0 URL tcp://localhost:9021/pub
+Process subscriber1 Is subscriber On site1 URL tcp://localhost:9022/sub
+Process subscriber2 Is subscriber On site2 URL tcp://localhost:9023/sub
+Process subscriber3 Is subscriber On site3 URL tcp://localhost:9024/sub
+

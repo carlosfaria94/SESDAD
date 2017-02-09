@@ -1,0 +1,12 @@
+Subscriber subscriber1 Subscribe evento-B                                                  
+Subscriber subscriber2 Subscribe evento-A
+Subscriber subscriber2 Subscribe evento-B
+Crash broker0
+Subscriber subscriber3 Subscribe evento-C
+Subscriber subscriber3 Subscribe evento-B
+Subscriber subscriber1 Unsubscribe evento-B
+Crash broker2
+Subscriber subscriber3 Subscribe evento-A
+Publisher publisher0 Publish 10 Ontopic evento-A Interval 0
+Publisher publisher0 Publish 10 Ontopic evento-B Interval 0
+Publisher publisher0 Publish 10 Ontopic evento-C Interval 0
