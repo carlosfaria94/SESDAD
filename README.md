@@ -39,7 +39,9 @@ More information in [Project Report](https://github.com/carlosfaria94/SESDAD/blo
 
 ## Contributions
 
-Carlos Faria <carlosfigueira@tecnico.ulisboa.pt>
-Sérgio Mendes <sergiosmendes@tecnico.ulisboa.pt>
-Nuno Vasconcelos <nunovasconcelos@tecnico.ulisboa.pt>
+NOTE: This project is a culmination of work of the following members:
+
+- Carlos Faria <carlosfigueira@tecnico.ulisboa.pt>
+- Sérgio Mendes <sergiosmendes@tecnico.ulisboa.pt>
+- Nuno Vasconcelos <nunovasconcelos@tecnico.ulisboa.pt>
 
